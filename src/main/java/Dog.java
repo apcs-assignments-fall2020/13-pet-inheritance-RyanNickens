@@ -23,7 +23,7 @@ public class Dog extends Pet {
 
     // toString method
     public String toString() {
-        String str =  "Breed: " + breed;
+        String str = "Age: " + this.getAge() + "Name:" + this.getName() +  "Breed: " + this.breed;
         return str;
     }
 
